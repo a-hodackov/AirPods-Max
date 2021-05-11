@@ -10,15 +10,24 @@
   <body>
     <div class="header">
       <div class="container">
-        <img src="images/logo.png" alt="logo" />
         <div class="menu">
-          <a href="#main" class="menu-item">Главная</a>
-          <a href="#advantages" class="menu-item">Преимущества</a>
-          <a href="#order" class="menu-item">Предзаказ</a>
-        </div>
-        <div class="profile">
-          <span>Роман</span>
-          <img src="images/avatar.png" alt="avatar" />
+          <div class="logo"><img src="images/logo.png" alt="logo" /></div>
+          <div class="menu-content">
+            <div class="menu-body">
+              <ul class="menu-list">
+                <li><a href="#main" class="menu-item">Главная</a></li>
+                <li><a href="#advantages" class="menu-item">Преимущества</a></li>
+                <li><a href="#order" class="menu-item">Предзаказ</a></li>
+              </ul>
+              <div class="profile">
+                <span>Антон</span>
+                <img src="images/avatar.png" alt="avatar" />
+              </div>
+            </div>
+            <div class="menu-icon">
+              <span></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -36,15 +45,15 @@
           </div>
           <div class="actions">
             <button class="button">Подробнее</button>
-            <button class="button btn-transparent">Оформить заказ</button>
+            <button class="button btn-transparent btn2">Оформить заказ</button>
           </div>
         </div>
-        <img src="images/image_2.png" alt="" />
+        <img class="img main-image " src="images/image_2.png" alt="" />
       </div>
     </div>
     <div class="advantages" id="advantages">
       <div class="container">
-        <img src="images/image_4.png" alt="" />
+        <img class="img" src="images/image_4.png" alt="" />
         <div class="advantages-items">
           <div class="advantages-item">Звук высокой четкости</div>
           <div class="advantages-item">Активное шумоподавление</div>
@@ -68,5 +77,6 @@
             <span>Все права защищены, 2021</span>
         </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
